@@ -1,0 +1,11 @@
+service: DemoProject
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-south-1
+
+functions:
+  function1:
+    handler: index.handler
